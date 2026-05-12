@@ -64,16 +64,12 @@ The goal of this repository is to strengthen:
 
 ```bash
 DSA-CPP/
+ ├── Patterns/
+ ├── Maths/
+ ├── Basic Recursion/
+ ├── Basic Hashing/
+ ├── Sorting/
  ├── Arrays/
- ├── Strings/
- ├── LinkedList/
- ├── Stack/
- ├── Queue/
- ├── Recursion/
- ├── Trees/
- ├── Graphs/
- ├── DP/
- └── Sorting/
 ```
 
 ---
@@ -99,9 +95,7 @@ DSA-CPP/
 
 ## 📈 Currently Practicing
 
-- 🔥 Dynamic Programming
-- 🌳 Trees & Graphs
-- ⚡ Advanced Recursion
+- 🧩 Arrays and Strings
 - 🧩 Problem Solving Patterns
 
 ---
