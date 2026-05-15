@@ -33,10 +33,18 @@ int elementsOnceVector(vector<int> arr){
     }
     return -1;
 }
+//Most Optimized
+int elementsOnceXor(vector<int> arr){
+    int xorvalue=0;
+    for(int i=0; i<arr.size(); i++){
+        xorvalue=xorvalue^arr[i];
+    }
+    return xorvalue;
+}
 
 int main(){
-    vector<int> arr={4,4,1,1,2};
-    int res= elementsOnceVector(arr);
+    vector<int> arr={4,1,1,2,2};
+    int res= elementsOnceXor(arr);
     cout<<"Element appearing once is: "<<res;
     return 0;
 }
