@@ -24,6 +24,6 @@ int main(){
     vector<int> arr={1,2,3,4,2};
     int num=3;
     pair<int,int> result= twoSum(arr, num);
-    cout<<"Frequency is: "<<result.first<<", "<<result.second;
+    cout<<"Indices are: "<<result.first<<", "<<result.second;
     return 0;
 }
