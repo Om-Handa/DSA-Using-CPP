@@ -18,3 +18,7 @@ int main(){
     else cout<<"Can't Jump";
     return 0;
 }
+
+//As car needs gas to run, we initialize a gas variable to 0 initially
+//At each step 1 unit of gas is reduced, if gas is less than arr[i] we add more gas
+//If gas becomes less than 0 before we reach end we return false
