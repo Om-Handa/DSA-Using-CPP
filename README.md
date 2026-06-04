@@ -98,6 +98,7 @@ DSA-CPP/
 
 - 🧩 Arrays and Strings
 - 🧩 Problem Solving Patterns
+- 🧩 Linked Lists
 
 ---
 
